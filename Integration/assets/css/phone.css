@@ -1,0 +1,101 @@
+@media screen and (max-width:561px){
+
+    *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0 5px;
+    }
+
+    header div.contactHeader, section div#carouselExampleControls, li#langue {
+        display: none;
+    }
+
+    section#competences h2{
+        text-align: center;
+    }
+    section#competences figure{
+        width:100%;
+        padding: 10px 20px;
+        margin: 0px;
+    }
+    section#competences figure img{
+        width:100%;
+    }
+    section#competences figure figcaption{
+        padding:15px 0 0;
+        text-align: center;
+    }
+    
+
+    /* FOOTER */
+
+    footer{
+        margin:0;
+        padding: 10px 20px 0;
+        height: auto;
+        width:100%;
+        display:block;
+
+    }
+    footer section{
+        display: block;
+        clear:both;
+        float:none;
+        width:100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    footer iframe{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 0px;
+        background: whitesmoke;
+    }
+    
+    footer div#plan p{
+        color: white;
+        margin-left: 0px;
+        font-size: 0.6em;
+    }
+    
+    
+    #contact{
+        width: 100%;
+    }
+    
+    #contact p{
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    #reseaux{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #reseaux img{
+        margin-top: 0px;
+        
+    }
+    
+    #reseaux p{
+        margin-top: 0px;
+        color : white;
+        font-size: 1.5em;
+    }
+    
+    #facebook{
+        margin-right: 0px;
+    }
+    
+
+
+
+
+}
