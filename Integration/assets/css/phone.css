@@ -1,0 +1,129 @@
+@media screen and (max-width:749px){
+
+    *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0 0px;
+    }
+
+    a, a:hover, a:active {
+        text-decoration: none;
+        color:white;
+    }
+
+    header div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child{
+        display: none;
+    }
+    nav{
+        background-color: #2e2e2e;
+        height: 55px;
+        margin:0;
+        padding:0;
+    }
+    nav ul{
+        padding:0;
+        margin:0;
+        vertical-align: middle;
+    }
+    nav ul li{
+        padding:0;
+        margin:0;
+        display:inline-block;
+    }
+    img#logo-phone{
+        height: 50px;
+    }
+    section#presentation{
+        padding: 5px;
+    }
+
+    section#competences h2{
+        text-align: center;
+    }
+    section#competences figure{
+        width:100%;
+        padding: 10px 20px;
+        margin: 0px;
+    }
+    section#competences figure img{
+        width:100%;
+    }
+    section#competences figure figcaption{
+        padding:15px 0 0;
+        text-align: center;
+    }
+    
+
+    /* FOOTER */
+
+    footer{
+        margin:0;
+        padding: 10px 20px 0;
+        height: auto;
+        width:100%;
+        display:block;
+        background: black;
+
+    }
+    footer section{
+        display: block;
+        clear:both;
+        float:none;
+        width:100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    footer iframe{
+        width: 100%;
+        height: 395px;
+        margin-left: 0px;
+        margin-top: 0px;
+        background: whitesmoke;
+    }
+    
+    footer div#plan p{
+        color: white;
+        margin-left: 0px;
+        font-size: 0.6em;
+    }
+    
+    
+    #contact{
+        width: 100%;
+    }
+    
+    #contact p{
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    #reseaux{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #reseaux img{
+        margin-top: 0px;
+        
+    }
+    
+    #reseaux p{
+        margin-top: 0px;
+        color : white;
+        font-size: 1.5em;
+    }
+    
+    #facebook{
+        margin-right: 0px;
+    }
+    
+
+
+
+
+}
