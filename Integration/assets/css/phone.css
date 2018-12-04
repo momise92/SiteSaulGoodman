@@ -62,8 +62,12 @@
         width:100%;
     }
     section#competences figure figcaption{
-        padding:15px 0 0;
+        margin-top: -40px;
+        height: 40px;
+        padding:5px 0 0;
         text-align: center;
+        background: whitesmoke;
+        opacity: 0.8;
     }
     
 
