@@ -1,22 +1,25 @@
-@media screen and (min-width : 755px) and (max-width:1023px) {
+@media screen and (max-width:755px){
+
     *{
         margin : 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Helvetica','Raleway', sans-serif;
         scroll-behavior: smooth;
-        transition: all 1s;
     }
-    
+    body{
+        padding: 0 0px;
+        position:relative;
+    }
+
     a, a:hover, a:active {
         text-decoration: none;
         color:white;
     }
     /* Masquage des elements */
-    header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
+    header div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
-    /* Navbar */
     nav{
         position: fixed;
         width:100%;
@@ -24,7 +27,6 @@
         height: 55px;
         margin:0;
         padding:0;
-        z-index: 1;
     }
     nav ul{
         padding:0;
@@ -39,62 +41,68 @@
     img#logo-phone{
         height: 50px;
     }
-    
-    /* Presentation */
     section#presentation{
         padding: 5px;
         padding-top: 55px;
     }
-    
-    /* Competence */
     section#competences{
         padding-top:65px;
+    }
+    section#competences h2{
         text-align: center;
     }
-    #competences figure {
-        display: inline-block;
-        margin: 0 10px;
-
+    section#competences figure{
+        width:100%;
+        padding: 10px 20px;
+        margin: 0px;
     }
-    #competences figure img {
-        width: 355px;
-        height: 200px;
+    section#competences figure img{
+        width:100%;
     }
-
-    /* Footer */
+    section#competences figure figcaption{
+        padding:15px 0 0;
+        text-align: center;
+    }
     
+
+    /* FOOTER */
+
     footer{
         margin:0;
-        padding: 100 30;
+        padding: 70px 20px 0;
         height: auto;
         width:100%;
-        background-color: black;
+        display:block;
+        background: black;
+
+    }
+    footer section{
+        display: block;
+        clear:both;
+        float:none;
+        width:100%;
+        height: auto;
+        padding: 0 20px;
     }
 
     footer iframe{
-        width: 720px;
+        width: 100%;
         height: 395px;
+        margin-left: 0px;
+        margin-top: 0px;
         background: whitesmoke;
-        text-align: center;
-
-    }
-    footer div#plan{
-        color: white;
-        font-size: 0.6em;
-        text-align: center;
     }
     
     footer div#plan p{
         color: white;
         margin-left: 0px;
         font-size: 0.6em;
+        position: top;
     }
     
-
+    
     #contact{
-        float: left;
-        margin: 5 30;
-
+        width: 100%;
     }
     
     #contact p{
@@ -104,8 +112,7 @@
     }
     
     #reseaux{
-        margin-left: 60%;
-        padding-top: 40;
+        width: 100%;
         text-align: center;
     }
     
@@ -123,5 +130,9 @@
     #facebook{
         margin-right: 0px;
     }
+    
+
+
+
 
 }
