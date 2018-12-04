@@ -1,10 +1,11 @@
-@media screen and (min-width : 750px) and (max-width:1023px) {
+@media screen and (min-width : 754px) and (max-width:1023px) {
     *{
         margin : 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Helvetica','Raleway', sans-serif;
         scroll-behavior: smooth;
+        transition: all 1s;
     }
     
     a, a:hover, a:active {
@@ -15,12 +16,15 @@
     header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
-
+    /* Navbar */
     nav{
+        position: fixed;
+        width:100%;
         background-color: #2e2e2e;
         height: 55px;
         margin:0;
         padding:0;
+        z-index: 1;
     }
     nav ul{
         padding:0;
@@ -34,6 +38,28 @@
     }
     img#logo-phone{
         height: 50px;
+    }
+    
+    /* Presentation */
+    section#presentation{
+        padding: 5px;
+        padding-top: 55px;
+    }
+    
+    /* Competence */
+    section#competences{
+        padding-top:65px;
+        text-align: center;
+    }
+    #competences figure {
+        display: inline-block;
+        margin: 0 10px;
+
+    }
+
+    #competences figure img {
+        width: 355px;
+        height: 200px;
     }
 
 }
