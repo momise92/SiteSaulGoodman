@@ -97,11 +97,13 @@
         position: fixed;
         margin-top: 18%;
         z-index: 1;
-        width: 65px;
+        width: 70px;
         height: 60px;
         background: white;
         opacity: 0.8;
         border-radius: 0 5px 5px 0;
+        border : none;
+        outline: none;
     }
 
     #fixedCall img {
