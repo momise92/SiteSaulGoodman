@@ -13,8 +13,8 @@
         text-decoration: none;
         color:white;
     }
-
-    header div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child{
+    /* Masquage des elements */
+    header div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
     nav{
