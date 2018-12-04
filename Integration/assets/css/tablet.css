@@ -13,7 +13,7 @@
         color:white;
     }
     /* Masquage des elements */
-    header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
+    header nav, header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
     /* Navbar */

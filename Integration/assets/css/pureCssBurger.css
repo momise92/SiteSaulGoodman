@@ -1,13 +1,13 @@
 /* ************************************ ****/
 /* pas de css burger pour les écrans > 756px width */
-@media screen and (min-width:756px){
+@media screen and (min-width:1024px){
   div#menuToggle, #pureCssBurger, figure#logoPhone, figure#logoTelPhone{
       display:none;
   }
   
 }
 /*** css Burger  ******/
-@media screen and (max-width:755px){
+@media screen and (max-width:1023px){
 
   body
   {
