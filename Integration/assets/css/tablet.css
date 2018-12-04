@@ -1,7 +1,39 @@
-@media screen and (min-width : 749px) and (max-width:1023px) {
+@media screen and (min-width : 750px) and (max-width:1023px) {
     *{
         margin : 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Helvetica','Raleway', sans-serif;
+        scroll-behavior: smooth;
     }
+    
+    a, a:hover, a:active {
+        text-decoration: none;
+        color:white;
+    }
+    /* Masquage des elements */
+    header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
+        display: none;
+    }
+
+    nav{
+        background-color: #2e2e2e;
+        height: 55px;
+        margin:0;
+        padding:0;
+    }
+    nav ul{
+        padding:0;
+        margin:0;
+        vertical-align: middle;
+    }
+    nav ul li{
+        padding:0;
+        margin:0;
+        display:inline-block;
+    }
+    img#logo-phone{
+        height: 50px;
+    }
+
 }
