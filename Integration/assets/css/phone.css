@@ -1,4 +1,4 @@
-@media screen and (max-width:749px){
+@media screen and (max-width:755px){
 
     *{
         margin : 0;
@@ -97,6 +97,7 @@
         color: white;
         margin-left: 0px;
         font-size: 0.6em;
+        position: top;
     }
     
     

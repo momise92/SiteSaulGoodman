@@ -1,4 +1,4 @@
-@media screen and (min-width : 754px) and (max-width:1023px) {
+@media screen and (min-width : 755px) and (max-width:1023px) {
     *{
         margin : 0;
         padding: 0;
@@ -56,10 +56,72 @@
         margin: 0 10px;
 
     }
-
     #competences figure img {
         width: 355px;
         height: 200px;
+    }
+
+    /* Footer */
+    
+    footer{
+        margin:0;
+        padding: 100 30;
+        height: auto;
+        width:100%;
+        background-color: black;
+    }
+
+    footer iframe{
+        width: 720px;
+        height: 395px;
+        background: whitesmoke;
+        text-align: center;
+
+    }
+    footer div#plan{
+        color: white;
+        font-size: 0.6em;
+        text-align: center;
+    }
+    
+    footer div#plan p{
+        color: white;
+        margin-left: 0px;
+        font-size: 0.6em;
+    }
+    
+
+    #contact{
+        float: left;
+        margin: 5 30;
+
+    }
+    
+    #contact p{
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    #reseaux{
+        margin-left: 60%;
+        padding-top: 40;
+        text-align: center;
+    }
+    
+    #reseaux img{
+        margin-top: 0px;
+        
+    }
+    
+    #reseaux p{
+        margin-top: 0px;
+        color : white;
+        font-size: 1.5em;
+    }
+    
+    #facebook{
+        margin-right: 0px;
     }
 
 }
