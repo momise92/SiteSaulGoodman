@@ -4,6 +4,8 @@
         margin : 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Helvetica','Raleway', sans-serif;
+        scroll-behavior: smooth;
     }
     body{
         padding: 0 0px;
@@ -44,7 +46,7 @@
         padding-top: 55px;
     }
     section#competences{
-        padding-top:55px;
+        padding-top:65px;
     }
     section#competences h2{
         text-align: center;
