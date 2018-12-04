@@ -61,19 +61,15 @@
         width:100%;
     }
     section#competences figure figcaption{
-        margin-top: -40px;
-        height:40px;
-        padding:5px 0;
+        padding:15px 0 0;
         text-align: center;
-        background:white;
-        opacity: 0.8;
     }
     
 
     /* FOOTER */
 
     footer{
-        margin:20px 0 20px;
+        margin:0;
         padding: 70px 20px 0;
         height: auto;
         width:100%;
