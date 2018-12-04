@@ -7,6 +7,7 @@
     }
     body{
         padding: 0 0px;
+        position:relative;
     }
 
     a, a:hover, a:active {
@@ -18,6 +19,8 @@
         display: none;
     }
     nav{
+        position: fixed;
+        width:100%;
         background-color: #2e2e2e;
         height: 55px;
         margin:0;
@@ -38,8 +41,11 @@
     }
     section#presentation{
         padding: 5px;
+        padding-top: 55px;
     }
-
+    section#competences{
+        padding-top:55px;
+    }
     section#competences h2{
         text-align: center;
     }
@@ -61,7 +67,7 @@
 
     footer{
         margin:0;
-        padding: 10px 20px 0;
+        padding: 70px 20px 0;
         height: auto;
         width:100%;
         display:block;
