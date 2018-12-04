@@ -1,6 +1,5 @@
 @import url("phone.css");
 @import url("tablet.css");
-
 @media screen and (min-width:1023px) {
 
     * {
@@ -102,6 +101,8 @@
         background: white;
         opacity: 0.8;
         border-radius: 0 5px 5px 0;
+        border : none;
+        outline : none;
     }
 
     #fixedCall img {
