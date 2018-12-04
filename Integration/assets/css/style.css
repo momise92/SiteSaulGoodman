@@ -85,6 +85,22 @@ header nav ul li a:hover{
 
 /* Caroussel */
 
+#fixedCall{
+    position: fixed;
+    margin-top: 18%; 
+    z-index: 1;
+    width: 65px;
+    height: 60px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 0 5px 5px 0;
+}
+
+#fixedCall img{
+    width: 60px;
+    height: 60px;
+}
+
 #carousel-inner{
 
 }
