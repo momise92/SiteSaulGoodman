@@ -1,5 +1,4 @@
 @media screen and (max-width:755px){
-    
 
     *{
         margin : 0;
@@ -7,22 +6,21 @@
         box-sizing: border-box;
         font-family: 'Helvetica','Raleway', sans-serif;
         scroll-behavior: smooth;
-        
     }
     body{
         padding: 0 0px;
-        /*position:relative;*/
+        position:relative;
     }
 
     a, a:hover, a:active {
         text-decoration: none;
         color:white;
     }
-    /* Masquage des elements  slider nav etc .... */
-    header nav, div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child, #fixedCall{
+    /* Masquage des elements */
+    header div.contactHeader, section div#carouselExampleControls, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
-    /*nav{
+    nav{
         position: fixed;
         width:100%;
         background-color: #2e2e2e;
@@ -39,20 +37,16 @@
         padding:0;
         margin:0;
         display:inline-block;
-    }*/
+    }
     img#logo-phone{
         height: 50px;
     }
     section#presentation{
-        padding: 25px;
+        padding: 5px;
         padding-top: 55px;
     }
-    section#presentation h1{
-        
-        margin-bottom: 20px;
-    } 
     section#competences{
-        padding-top:20px;
+        padding-top:65px;
     }
     section#competences h2{
         text-align: center;
@@ -66,12 +60,8 @@
         width:100%;
     }
     section#competences figure figcaption{
-        margin-top: -40px;
-        height: 40px;
-        padding:5px 0 0;
+        padding:15px 0 0;
         text-align: center;
-        background: whitesmoke;
-        opacity: 0.8;
     }
     
 
@@ -79,11 +69,11 @@
 
     footer{
         margin:0;
-        padding: 30px 20px 160px;
+        padding: 70px 20px 0;
         height: auto;
         width:100%;
         display:block;
-        background: #2e2e2e;
+        background: black;
 
     }
     footer section{
@@ -113,20 +103,17 @@
     
     #contact{
         width: 100%;
-        
     }
     
     #contact p{
         text-align: center;
         color: white;
-        font-size: 0.8em;
-        padding-top: 15px;
+        font-size: 1.1em;
     }
     
     #reseaux{
         width: 100%;
         text-align: center;
-        padding-top: 15px;
     }
     
     #reseaux img{
@@ -135,20 +122,17 @@
     }
     
     #reseaux p{
-        margin-top: 15px;
+        margin-top: 0px;
         color : white;
-        font-size: 0.8em;
-    }
-    #contact p:first-child{
-        margin-top: 30px;
-        font-size: 1em;
-    }
-    #contact p:last-child{
-        
-        font-size: 0.6em;
+        font-size: 1.5em;
     }
     
     #facebook{
         margin-right: 0px;
-    }   
+    }
+    
+
+
+
+
 }
