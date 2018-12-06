@@ -41,10 +41,8 @@
         margin-right: 10%;
     }
     figure#logoTelPhone {
-        position: absolute;
-        display: inline-block;
-        width: 23px;
-        top: 22px;
+        position: fixed;
+        top: 12px;
         right: 15px;
         z-index: 2;
     }
