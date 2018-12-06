@@ -1,7 +1,7 @@
 /* ************************************ ****/
 /* pas de css burger pour les écrans - tablettes > px width >= 750 */
-@media screen and (min-width:750px){
-  div#menuToggle, #pureCssBurger, figure#logoPhone, figure#logoTelPhone{
+@media screen and (min-width:755px){
+  div#menuToggle, #pureCssBurger, figure#logoPhone{
       display:none;
   }
   

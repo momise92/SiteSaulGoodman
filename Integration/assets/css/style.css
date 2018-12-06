@@ -12,7 +12,7 @@
         scroll-behavior: smooth;
     }
 
-    #logo-phone {
+    #logo-phone, figure#logoTelPhone {
         display: none;
     }
 

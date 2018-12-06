@@ -1,11 +1,11 @@
-@media screen and (min-width : 755px) and (max-width:1023px) {
+@media screen and (min-width : 755px) and (max-width:1050px) {
     *{
         margin : 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Helvetica','Raleway', sans-serif;
         scroll-behavior: smooth;
-        transition: all 1s;
+        transition: all 500ms;
     }
     
     a, a:hover, a:active {
@@ -13,7 +13,7 @@
         color:white;
     }
     /* Masquage des elements */
-    header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
+    header div.contactHeader, li#langue, nav ul li:first-child{
         display: none;
     }
     /* Navbar */
@@ -31,13 +31,42 @@
         margin:0;
         vertical-align: middle;
     }
-    nav ul li{
-        padding:0;
-        margin:0;
-        display:inline-block;
+    nav ul li {
+        padding: 0;
+        margin-right: 3%;
+        display: inline-block;
     }
     img#logo-phone{
         height: 50px;
+        margin-right: 10%;
+    }
+    figure#logoTelPhone {
+        position: absolute;
+        display: inline-block;
+        width: 23px;
+        top: 22px;
+        right: 15px;
+        z-index: 2;
+    }
+    
+    /* Bouton telephone fixe */
+
+    #fixedCall {
+        position: fixed;
+        margin-top: 18%;
+        z-index: 1;
+        width: 70px;
+        height: 60px;
+        background: white;
+        opacity: 0.8;
+        border-radius: 0 5px 5px 0;
+        border: none;
+        outline: none;
+    }
+
+    #fixedCall img {
+        width: 60px;
+        height: 60px;
     }
     
     /* Presentation */
