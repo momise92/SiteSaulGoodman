@@ -1,166 +1,126 @@
-@media screen and (min-width : 755px) and (max-width:1050px) {
-    * {
-        margin: 0;
+@media screen and (min-width : 755px) and (max-width:1023px) {
+    *{
+        margin : 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Helvetica', 'Raleway', sans-serif;
+        font-family: 'Helvetica','Raleway', sans-serif;
         scroll-behavior: smooth;
         transition: all 1s;
     }
-
-    a,
-    a:hover,
-    a:active {
+    
+    a, a:hover, a:active {
         text-decoration: none;
-        color: white;
+        color:white;
     }
-
     /* Masquage des elements */
-    header div.contactHeader, li#langue, nav ul li:first-child{
+    header div.contactHeader, li#langue, nav ul li:first-child, #fixedCall{
         display: none;
     }
-
     /* Navbar */
-    nav {
+    nav{
         position: fixed;
-        width: 100%;
+        width:100%;
         background-color: #2e2e2e;
         height: 55px;
-        margin: 0;
-        padding: 0;
+        margin:0;
+        padding:0;
         z-index: 1;
     }
-
-    nav ul {
-        padding: 0;
-        margin: 0;
+    nav ul{
+        padding:0;
+        margin:0;
         vertical-align: middle;
     }
-
-    nav ul li {
-        padding: 0;
-        margin-right: 3%;
-        display: inline-block;
+    nav ul li{
+        padding:0;
+        margin:0;
+        display:inline-block;
     }
-
     img#logo-phone{
         height: 50px;
-        margin-right: 10%;
     }
-    figure#logoTelPhone {
-        position: absolute;
-        display: inline-block;
-        width: 23px;
-        /*height:50px;*/
-        top: 22px;
-        right: 15px;
-        z-index: 2;
-
-    }
-
+    
     /* Presentation */
-    section#presentation {
+    section#presentation{
         padding: 5px;
         padding-top: 55px;
     }
-
+    
     /* Competence */
-    section#competences {
-        padding-top: 65px;
+    section#competences{
+        padding-top:65px;
         text-align: center;
     }
-
     #competences figure {
         display: inline-block;
         margin: 0 10px;
 
     }
-
     #competences figure img {
         width: 355px;
         height: 200px;
     }
 
-    /* Bouton telephone fixe */
-
-    #fixedCall {
-        position: fixed;
-        margin-top: 18%;
-        z-index: 1;
-        width: 70px;
-        height: 60px;
-        background: white;
-        opacity: 0.8;
-        border-radius: 0 5px 5px 0;
-        border: none;
-        outline: none;
-    }
-
-    #fixedCall img {
-        width: 60px;
-        height: 60px;
-    }
-
     /* Footer */
-
-    footer {
-        margin: 0;
+    
+    footer{
+        margin:0;
         padding: 100 30;
         height: auto;
-        width: 100%;
+        width:100%;
         background-color: black;
     }
 
-    footer iframe {
+    footer iframe{
         width: 720px;
         height: 395px;
         background: whitesmoke;
         text-align: center;
 
     }
-
-    footer div#plan {
+    footer div#plan{
         color: white;
         font-size: 0.6em;
         text-align: center;
     }
-
-    footer div#plan p {
+    
+    footer div#plan p{
         color: white;
         margin-left: 0px;
         font-size: 0.6em;
     }
+    
 
-    #contact {
+    #contact{
         float: left;
         margin: 5 30;
 
     }
-
-    #contact p {
+    
+    #contact p{
         text-align: center;
         color: white;
         font-size: 1.1em;
     }
-
-    #reseaux {
+    
+    #reseaux{
         margin-left: 60%;
         padding-top: 40;
         text-align: center;
     }
-
-    #reseaux img {
+    
+    #reseaux img{
         margin-top: 0px;
-
+        
     }
-
-    #reseaux p {
+    
+    #reseaux p{
         margin-top: 0px;
-        color: white;
+        color : white;
         font-size: 1.5em;
     }
-
-    #facebook {
+    
+    #facebook{
         margin-right: 0px;
     }
 
