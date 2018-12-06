@@ -1,6 +1,5 @@
 @import url("phone.css");
 @import url("tablet.css");
-@import url("pureCSSBurger.css");
 
 @media screen and (min-width:1023px) {
 
@@ -14,10 +13,6 @@
 
     #logo-phone {
         display: none;
-    }
-    figure#logoTelPhone {
-        display: none;
-
     }
 
     body {
