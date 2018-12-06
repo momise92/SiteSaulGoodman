@@ -1,17 +1,17 @@
 <!doctype <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="utf-8" />
-    <title>Saul GOODMAN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script src="assets/js/main.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Saul GOODMAN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="assets/js/main.js"></script>
+    </head>
 
 <body>
     <header>
@@ -20,6 +20,42 @@
             <p><a href="tel:+33147898909"><img src="assets/images/smartphone.png" id="smartphone" alt="smartphone_icone">01
                     47 89 89 09</a></p>
         </div>
+        <div id="menuToggle">
+            <!--
+                A fake / hidden checkbox is used as click receiver,
+                so you can use the :checked selector on it.
+                -->
+            <input type="checkbox" />
+
+            <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+            <ul id="menuCssBurger">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Equipe</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+        <a href="#">
+            <figure id="logoPhone"><img src="assets/images/logoSGoodman-phone-v1.95.svg"></figure>
+        </a>
+        <a href="tel:+33633914066">
+            <figure id="logoTelPhone"><img src="assets/images/smartphone.png"></figure>
+        </a>
+        <div id="barPhone"></div>
         <nav role="navigation">
             <ul>
                 <li><img id="logo" src="assets/images/logoSGoodman-v1.7.svg" alt=""></li>
@@ -87,7 +123,7 @@
         </figure>
         <figure>
             <img src="assets/images/droitCivil.jpg" alt="droitCivil">
-                <figcaption>DROIT PUBLIC</figcaption>
+            <figcaption>DROIT PUBLIC</figcaption>
         </figure>
         <figure>
             <img src="assets/images/droitFamille.jpg" alt="droitFamille" class="lastImg">
@@ -99,7 +135,7 @@
         </figure>
         <figure>
             <img src="assets/images/droitComercial.png" alt="droitCivil">
-                <figcaption>DROIT COMMERCIAL</figcaption>
+            <figcaption>DROIT COMMERCIAL</figcaption>
         </figure>
         <figure>
             <img src="assets/images/droitPenal.png" alt="droitFamille" class="lastImg">
@@ -115,19 +151,19 @@
                 width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <p>PLAN DU SITE / MENTIONS LEGALES</p>
         </div>
-            <address id="contact">
-                <p> SAUL GOODMAN </p>
-                <p>48 AVENUE DES CHAMPS ELYSEES</p>
-                <p>75009 PARIS</p>
-                <p>TEL : 01 47 89 89 09</p>
-                <p> CONTACT@SOULGOODMAN.COM</p>
-            </address>
+        <address id="contact">
+            <p> SAUL GOODMAN </p>
+            <p>48 AVENUE DES CHAMPS ELYSEES</p>
+            <p>75009 PARIS</p>
+            <p>TEL : 01 47 89 89 09</p>
+            <p> CONTACT@SOULGOODMAN.COM</p>
+        </address>
 
-            <div id="reseaux">
-                <img id="facebook" src="assets/images/facebook.png" alt="facebook_logo">
-                <img src="assets/images/linkedin-logo.png" alt="linkedin_logo">
-                <p>CONTACTEZ NOUS</p>
-            </div>
+        <div id="reseaux">
+            <img id="facebook" src="assets/images/facebook.png" alt="facebook_logo">
+            <img src="assets/images/linkedin-logo.png" alt="linkedin_logo">
+            <p>CONTACTEZ NOUS</p>
+        </div>
 
     </footer>
     <!-- JS -->
